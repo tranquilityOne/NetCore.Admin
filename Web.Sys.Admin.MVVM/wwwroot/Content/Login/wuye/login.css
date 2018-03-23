@@ -1,0 +1,27 @@
+/* CSS Document */
+.login_box { padding:10px 0; }
+.login_box .pic { width:600px; height:400px; }
+.login_box .login { width:260px; margin:30px 10px; border:solid 1px #dedede; padding:15px 30px; }
+.login_box .login a:link,.login_box .login a:visited { color:#2f7899; }
+.login_box .login a:hover { color:#f60; }
+.login_box .login p { padding-top:5px; height:57px; }
+.login_box .login label { display:block; height:30px; line-height:30px; font-weight:bold; color:#666; }
+.login_box .login label a { float:right; font-weight:normal; }
+.login_box .login input { border:solid 1px #cbcbcb; height:25px; width:100%; font-size:14px; line-height:25px; }
+.login_box .login p.verify { padding-top:20px; height:27px; }
+.login_box .login p.verify input { width:80px; float:left; color:#999; padding-left:10px; }
+.login_box .login p.verify span { float:left; width:80px; height:27px; margin-left:15px; background-color:#ffffff; display:inline; }
+.login_box .login p.verify a { width:40px; float:left; display:inline; margin-left:15px; height:27px; line-height:13px; overflow:hidden; }
+.login_box .login p.btn { padding-top:10px; height:36px; }
+.login_box .login p.btn input { height:31px; line-height:31px; font-size:12px; font-weight:bold; color:#fff; background:url(login_btn.jpg) repeat-x 0px 0px; border:solid 1px #7a9c00; border-radius:3px; box-shadow:0px 0px 3px #b3dc28; cursor:pointer; }
+.login_box .login p.sign { text-align:right; }
+
+
+.Box_News
+{
+	margin: 0px auto;
+	border:1px solid #CCEFF5;
+	background-color: #FAFCFD;
+	font-family:ËÎÌו;
+	font-size:12px;
+}

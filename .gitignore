@@ -1,0 +1,52 @@
+bin/
+debug/
+Bin/
+Debug/
+Thumbs.db
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.sln.docstates
+*.sln.docstates.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lock.json
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+TempPE/
+*.ncrunchsolution
+*.ncrunchsolution.user
+*.ncrunchproject
+*.userprefs
+=======
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+bin
+obj
+.DS_Store
+
+# mstest test results
+TestResults
+
+#Created by Visual Studio
+.vs
+
+#Created by NuGet
+packages

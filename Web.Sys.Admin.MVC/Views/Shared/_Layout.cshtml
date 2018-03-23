@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <script src="@Url.Content("~/Content/Scripts/jquery1.9.min.js")"></script>
+    <script src="@Url.Content("~/Content/Scripts/CommonFunction.js")"></script>
+    <link href="@Url.Content("~/Content/EasyUI/themes/icon.css")" rel="stylesheet" />
+    <link href="~/Content/EasyUI/themes/default/easyui.css" rel="stylesheet" />
+    <script src="~/Content/EasyUI/jquery.easyui.min.js"></script>
+    <script src="@Url.Content("~/Content/EasyUI/locale/easyui-lang-zh_CN.js")"></script>
+    <link href="~/Content/jQueryload/fakeloader.css" rel="stylesheet" />
+    <script src="@Url.Content("~/Content/jQueryload/fakeloader.js")"></script>
+    <link href="~/Content/Css/Style.css" rel="stylesheet" />
+    <script src="@Url.Content("~/Content/Scripts/Style.js")"></script>
+
+    <!--[if lt IE 9]>
+    <script src="http://cdn.static.runoob.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+    @*  <!-- 地图Start-->
+        <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=a3wNd0COKjujWVCggydwQUIR"></script>
+        <!-- 地图end-->*@
+    @RenderSection("Jsprepare", required: true)@*View页面自定义特定js/css使用*@
+</head>
+
+<body>
+    @RenderBody()
+</body>
+</html>

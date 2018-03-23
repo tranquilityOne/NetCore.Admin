@@ -1,0 +1,86 @@
+﻿#navcontainer
+{
+margin: 0;
+padding: 0;
+font: 12px Verdana, sans-serif;
+
+list-style-type: none;
+}
+
+#navlist li
+{
+float: left;
+width: auto;
+display: block;
+}
+
+#navlist li a, #navlist li a:link
+{
+color: #555;
+text-decoration: none;
+padding: 3px 5px 3px 5px;
+display: block;
+}
+
+#navlist li a:hover
+{
+color: #039;
+border-bottom: 3px solid #bbb;
+cursor:pointer;
+background: #eee;
+}
+
+#navlist li a#current, #navlist li a#current:link
+{
+color: #000;
+cursor: pointer;
+font-weight: bold;
+border-bottom: 3px solid #999;
+}
+
+#navlist li a#current:hover
+{
+border-bottom: 3px solid #f90;
+background: #eee;
+}
+
+.docmx
+{
+    font-size:14px;
+    font-family:宋体;
+    line-height:25px;
+    padding:10px;
+}
+
+
+#breadcrumb{
+    background-image:url("bc_bg.gif"); 
+    background-repeat:repeat-x;
+    height:30px;
+    line-height:30px;
+    color:#9b9b9b;
+    border:solid 1px #cacaca;
+    /*width:500px;*/
+    overflow:hidden;
+    margin:0px;
+    padding:0px;
+}
+#breadcrumb li {
+    list-style-type:none;
+    float:left;
+    padding-left:10px;
+}
+#breadcrumb a{
+    height:30px;
+    display:inline;
+    float:left;
+    background-image:url('bc_separator.gif'); 
+    background-repeat:no-repeat; 
+    background-position:right;
+    padding-right: 15px;
+    text-decoration: none;
+    color:#454545;
+}
+#breadcrumb a:hover{color:#35acc5;}
+.home{border:none;margin: 8px 0px;}
+.srch{display:inline; padding:5px 10px 0 0;}

@@ -1,0 +1,42 @@
+*{margin:0 auto;}
+html { color: #000; background: #FFF; font-size: 12px; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td { margin: 0; padding: 0 }
+table { border-collapse: collapse; border-spacing: 0 }
+fieldset, img { border: 0 }
+address, caption, cite, code, dfn, em, th, var { font-style: normal; font-weight: normal }
+ol, ul { list-style: none }
+caption, th { text-align: left }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal }
+q:before, q:after { content: '' }
+abbr, acronym { border: 0; font-variant: normal }
+sup { vertical-align: text-top }
+sub { vertical-align: text-bottom }
+input, textarea, select { font-family: inherit; font-size: inherit; font-weight: inherit }
+input, textarea, select { font-size:100%
+}
+
+.selecttor  { font-family: inherit; font-size: inherit; font-weight: inherit ;font-size:100%}
+legend { color: #000 }
+
+a:link, a:visited, a:active { color: #565656; text-decoration: none; }
+a:hover { text-decoration: none; color: #d33e0f; }
+.cf { display: inline-block; }
+* html .cf { height: 1%; }
+.cf { display: block; }
+.cf:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+img { vertical-align: bottom; }
+.fl { float: left; display: inline; }
+.fr { float: right; display: inline; }
+.mt10 { margin-top: 10px; }
+.mb10 { margin-bottom:10px; }
+
+/*header*/
+
+.header { width:990px; height:85px; margin:0px auto; overflow:hidden;}
+
+/*content*/
+.content { width:990px; margin:0px auto; overflow:hidden;}
+
+/*footer*/
+.footer { width:940px; margin:0px auto; background:url(footer_bg.jpg) no-repeat center 0px; padding:10px; height:30px; line-height:30px; text-align:center; font-family:"ËÎÌו"; color:#888; overflow:hidden;}
+

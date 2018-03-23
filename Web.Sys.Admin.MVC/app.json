@@ -1,0 +1,6 @@
+﻿{
+  "ConnectionStrings": {
+    "PostgreSql_DB": "Server=127.0.0.1;port=5432;User id=postgres;password=123456;Database=sysdb;"
+  }，
+  "SysRoleId":"8d17e9ae-778c-4489-b3e6-69990a226c20"
+}

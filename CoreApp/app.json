@@ -1,0 +1,20 @@
+{
+  "Data": "Test",
+  "RedisKey": "redis_",
+  "RedisExchangeHosts": "127.0.0.1:6379,allowadmin=true,password=Gpswareable",
+  "ConnectionStrings": {
+    "DefaultConnection": "数据库1",
+    "DevConnection": "数据库2"
+  },
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}
